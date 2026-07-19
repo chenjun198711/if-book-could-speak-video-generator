@@ -1,0 +1,17 @@
+# 敏感凭证
+.tts_key
+
+# 输出产物
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

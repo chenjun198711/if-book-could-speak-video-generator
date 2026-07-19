@@ -1,0 +1,18 @@
+# 假如书籍会说话 (If Books Could Speak) — Python 依赖
+
+# 视频合成（ffmpeg 自动二进制）
+imageio-ffmpeg>=0.5
+
+# 图片处理（封面、背景、进度条）
+Pillow>=10.0
+
+# TTS 语音合成（备选引擎，免费）
+edge-tts>=6.1
+
+# AI 抠图（主角方案，首次使用自动下载 U2Net 模型 ~170MB）
+rembg>=2.0
+onnxruntime>=1.16
+
+# 可选：火山引擎 TTS（主方案，中文自然度最高）
+# volcenginesdkcore
+# volcenginesdkvisualapi
